@@ -23,3 +23,34 @@ not a month
 '''
 
 #start writing your code below
+
+month = input("Enter the name of a month: ")
+month = month.capitalize()
+
+months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+
+if month not in months:
+  print("not a month :(")
+  exit()
+  
+monthNum = months.index(month)
+
+daysPerMonth = [31, "28 or 29", 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+numOfDays = daysPerMonth[int(monthNum)]
+
+print(str(numOfDays))
+
+
+'''
+using four blocks of code; it doesn't look so nice to look at so i made the thing above (especially since i dont know if you can combine the ors or not or if i forgot how to hah)
+
+if month == months[0] or month == months[2] or month == months[4] or month == months[6] or month == months[7] or month == months[9] or month == months[11]:
+  print("31")
+elif month == months[3] or month == months[5] or month == months[8] or months == months[10]:
+  print("30")
+elif month == months[1]:
+  print("28 or 29")
+else:
+  print("thats not a month :(")
+'''
+

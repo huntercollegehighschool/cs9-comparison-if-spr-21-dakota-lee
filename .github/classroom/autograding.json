@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "part1test1",
+      "setup": "",
+      "run": "python part1.py",
+      "input": "7\r\n5\r\n2",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part1test2",
+      "setup": "",
+      "run": "python part1.py",
+      "input": "7\r\n13\r\n7",
+      "output": "7",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part2test1",
+      "setup": "",
+      "run": "python part2.py",
+      "input": "5\r\n5\r\n5",
+      "output": ".*[Aa]ll.*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part2test2",
+      "setup": "",
+      "run": "python part2.py",
+      "input": "1\r\n3\r\n1",
+      "output": ".*[Tt]wo.*equal",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part3test1",
+      "setup": "",
+      "run": "python part3.py",
+      "input": "-5",
+      "output": ".*[Nn]ot.*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part3test2",
+      "setup": "",
+      "run": "python part3.py",
+      "input": "15",
+      "output": ".*(3|three).*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part4test1",
+      "setup": "",
+      "run": "python part4.py",
+      "input": "5\r\n6",
+      "output": ".*positive.*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part4test2",
+      "setup": "",
+      "run": "python part4.py",
+      "input": "8\r\n-1",
+      "output": ".*opposite.*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part5test1",
+      "setup": "",
+      "run": "python part5.py",
+      "input": "May",
+      "output": ".*31.*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part5test2",
+      "setup": "",
+      "run": "python part5.py",
+      "input": "June",
+      "output": ".*30.*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
