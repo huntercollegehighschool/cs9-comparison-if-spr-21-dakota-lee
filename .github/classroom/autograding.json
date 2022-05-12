@@ -15,7 +15,7 @@
       "setup": "",
       "run": "python part1.py",
       "input": "7\r\n13\r\n7",
-      "output": "2",
+      "output": "7",
       "comparison": "included",
       "timeout": 10,
       "points": null
@@ -25,8 +25,8 @@
       "setup": "",
       "run": "python part2.py",
       "input": "5\r\n5\r\n5",
-      "output": "\"All three numbers are equal.\"",
-      "comparison": "included",
+      "output": ".*[Aa]ll.*",
+      "comparison": "regex",
       "timeout": 10,
       "points": null
     },
@@ -35,8 +35,8 @@
       "setup": "",
       "run": "python part2.py",
       "input": "1\r\n3\r\n1",
-      "output": "\"Exactly two of the numbers are equal.\"",
-      "comparison": "included",
+      "output": ".*[Tt]wo.*equal",
+      "comparison": "regex",
       "timeout": 10,
       "points": null
     },
@@ -45,8 +45,8 @@
       "setup": "",
       "run": "python part3.py",
       "input": "-5",
-      "output": "\"not divisible\"",
-      "comparison": "included",
+      "output": ".*[Nn]ot.*",
+      "comparison": "regex",
       "timeout": 10,
       "points": null
     },
@@ -55,8 +55,8 @@
       "setup": "",
       "run": "python part3.py",
       "input": "15",
-      "output": "\"divisible by 3\"",
-      "comparison": "included",
+      "output": ".*(3|three).*",
+      "comparison": "regex",
       "timeout": 10,
       "points": null
     },
@@ -65,8 +65,8 @@
       "setup": "",
       "run": "python part4.py",
       "input": "5\r\n6",
-      "output": "\"positive\"",
-      "comparison": "included",
+      "output": ".*positive.*",
+      "comparison": "regex",
       "timeout": 10,
       "points": null
     },
@@ -75,8 +75,8 @@
       "setup": "",
       "run": "python part4.py",
       "input": "8\r\n-1",
-      "output": "\"opposite\"",
-      "comparison": "included",
+      "output": ".*opposite.*",
+      "comparison": "regex",
       "timeout": 10,
       "points": null
     },
@@ -85,7 +85,7 @@
       "setup": "",
       "run": "python part5.py",
       "input": "May",
-      "output": "31|\"31\"",
+      "output": ".*31.*",
       "comparison": "regex",
       "timeout": 10,
       "points": null
@@ -95,7 +95,7 @@
       "setup": "",
       "run": "python part5.py",
       "input": "June",
-      "output": "30|\"30\"",
+      "output": ".*30.*",
       "comparison": "regex",
       "timeout": 10,
       "points": null
